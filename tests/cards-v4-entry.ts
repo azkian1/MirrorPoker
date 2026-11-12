@@ -1,0 +1,5 @@
+export * as THREE from 'three'
+export { createCardFactory } from '../scene/cards.ts'
+export { createWorld } from '../scene/world.ts'
+export { ANCHORS, CAMERA, CARD, CARD_REST, CARD_SUITS } from '../shared/assets.ts'
+export { CARD_ART, cardFaceSvg, cardCompactSvg } from '../shared/card-art.ts'

@@ -1,0 +1,23 @@
+{
+  "version": 16,
+  "tool": "Built-in image_gen",
+  "normalPoses": [
+    "snap-raise-1-v15.png",
+    "snap-raise-2-v15.png",
+    "snap-ready-v15.png",
+    "snap-release-v15.png"
+  ],
+  "mirrorPoses": [
+    "snap-raise-1-mirror-v16.png",
+    "snap-raise-2-mirror-v16.png",
+    "snap-ready-mirror-v16.png",
+    "snap-release-mirror-v16.png"
+  ],
+  "approvedBase": [
+    "normal-v3.png",
+    "mirror-v3.png"
+  ],
+  "approvedHead": "head-natural-v14.png",
+  "rendering": "Original head and visible body remain fixed. Sleeve/glove pixels use a separate articulated surface; one constant ready-pose plate fills only the lower waist previously hidden by the resting glove. Native dark/ivory pose pairs replace the previous procedural whitening. Red trim in source art is a selection mask recolored by platformWardrobe to the approved forest green #17452f; displayed trim and vest remain green in both worlds.",
+  "prompt": "Use case: identity-preserve. Asset type: aligned native-color frame for a high-detail game animation. Image1 is the EDIT TARGET dark-suited dealer in a specific arm/finger pose. Image2 is the APPROVED MIRROR WARDROBE, lighting, fabric and glove reference. Edit ONLY the jacket, shirt, tie, vest and glove MATERIALS of image1 to exactly match image2: native warm ivory/white patterned jacket and ivory leather gloves, burgundy/red trim and vest, same realistic texture density, same cream highlights and shadows, same cloth seams and cuff buttons. This must be a genuine detailed white-costume render, NOT a desaturated or gray filter applied to black clothes. Match image2 exposure and ivory hue (not flat neutral gray, not overexposed pure white), retain detailed brocade pattern, natural soft shadows, leather finger creases and edges. Registration constraints CRITICAL: keep EXACT image1 dimensions1215x1295, scale, character face/hair/expression, body proportions, head height, shoulder position, raised/resting arms, elbow, wrist, palm and ALL FINGER POSITIONS and silhouette. No pose change at all. Do not change hand size, gesture, finger length, arm angle, posture, viewpoint, crop or perspective. The sprite must overlay image1 perfectly and only the clothing/glove surface color and material changes. Transparent RGBA background, no table, room, text, extra props, extra digits or effects. Full portrait, no borders."
+}

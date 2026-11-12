@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360" role="img" aria-labelledby="mp-loader-chip-title mp-loader-chip-description">
+  <title id="mp-loader-chip-title">Mirror Poker</title>
+  <desc id="mp-loader-chip-description">Black and lime poker chip with a spade and mirror diamond and curved Mirror Poker lettering.</desc>
+  <defs>
+    <radialGradient id="mp-loader-shell" cx="32%" cy="21%" r="84%">
+      <stop offset="0" stop-color="#475247"/>
+      <stop offset=".25" stop-color="#202a22"/>
+      <stop offset=".7" stop-color="#0b100d"/>
+      <stop offset="1" stop-color="#030503"/>
+    </radialGradient>
+    <linearGradient id="mp-loader-edge" x1="0" y1="0" x2=".7" y2="1">
+      <stop stop-color="#8d9a83"/>
+      <stop offset=".24" stop-color="#323f2c"/>
+      <stop offset=".6" stop-color="#040704"/>
+      <stop offset="1" stop-color="#70805d"/>
+    </linearGradient>
+    <radialGradient id="mp-loader-face" cx="36%" cy="24%" r="83%">
+      <stop stop-color="#202a20"/>
+      <stop offset=".6" stop-color="#101713"/>
+      <stop offset="1" stop-color="#080d09"/>
+    </radialGradient>
+    <linearGradient id="mp-loader-lime" x1="0" y1="0" x2=".6" y2="1">
+      <stop stop-color="#d2ff65"/>
+      <stop offset=".35" stop-color="#b6ff00"/>
+      <stop offset=".75" stop-color="#b6ff00"/>
+      <stop offset="1" stop-color="#8dc600"/>
+    </linearGradient>
+    <path id="mp-loader-rim-insert" d="M139.84 18.93 A166 166 0 0 1 220.16 18.93 L215.32 38.34 A146 146 0 0 0 144.68 38.34 Z"/>
+    <path id="mp-loader-mirror-arc" d="M69 180 A111 111 0 0 1 291 180"/>
+    <path id="mp-loader-poker-arc" d="M48 180 A132 132 0 0 0 312 180"/>
+  </defs>
+
+  <!-- One circular silhouette; the bevel stays inside the 360 px artboard. -->
+  <circle cx="180" cy="180" r="173" fill="#030503"/>
+  <circle cx="180" cy="180" r="171.5" fill="url(#mp-loader-shell)" stroke="url(#mp-loader-edge)" stroke-width="2"/>
+  <circle cx="180" cy="180" r="168.5" fill="none" stroke="#c6dfb5" stroke-opacity=".16"/>
+
+  <!-- Six alternating lime inserts follow the supplied physical chip reference. -->
+  <g fill="url(#mp-loader-lime)" stroke="#0c160b" stroke-width="1.2" stroke-linejoin="round">
+    <use href="#mp-loader-rim-insert"/>
+    <use href="#mp-loader-rim-insert" transform="rotate(60 180 180)"/>
+    <use href="#mp-loader-rim-insert" transform="rotate(120 180 180)"/>
+    <use href="#mp-loader-rim-insert" transform="rotate(180 180 180)"/>
+    <use href="#mp-loader-rim-insert" transform="rotate(240 180 180)"/>
+    <use href="#mp-loader-rim-insert" transform="rotate(300 180 180)"/>
+  </g>
+  <circle cx="180" cy="180" r="146" fill="none" stroke="#000" stroke-opacity=".8" stroke-width="2.5"/>
+  <circle cx="180" cy="180" r="141.5" fill="#030703" stroke="#94ab76" stroke-opacity=".22"/>
+  <circle cx="180" cy="180" r="138" fill="url(#mp-loader-face)" stroke="#b6ff00" stroke-opacity=".6" stroke-width="1.5"/>
+  <circle cx="180" cy="180" r="134.5" fill="none" stroke="#b6ff00" stroke-opacity=".12" stroke-dasharray="1 4"/>
+
+  <!-- The lower arc runs left to right, keeping POKER upright. -->
+  <g fill="#b6ff00" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="27" font-weight="900" letter-spacing="3.6" text-anchor="middle">
+    <text><textPath href="#mp-loader-mirror-arc" startOffset="50%">MIRROR</textPath></text>
+    <text><textPath href="#mp-loader-poker-arc" startOffset="50%">POKER</textPath></text>
+  </g>
+  <g fill="#b6ff00">
+    <path d="M60 173 L66 180 L60 187 L54 180 Z"/>
+    <path d="M300 173 L306 180 L300 187 L294 180 Z"/>
+  </g>
+
+  <!-- Bevelled lime medallion, with the original spade and mirror-diamond artwork. -->
+  <circle cx="180" cy="180" r="88" fill="#050a05" stroke="#b6ff00" stroke-opacity=".35" stroke-width="1.2"/>
+  <circle cx="180" cy="180" r="83" fill="url(#mp-loader-lime)" stroke="#e1ff9a" stroke-opacity=".48" stroke-width="1.2"/>
+  <circle cx="180" cy="180" r="79" fill="none" stroke="#17452f" stroke-opacity=".2"/>
+  <g transform="translate(124.65 130.554) scale(.123)"><path d="M450 20 Q400 105 200 280 Q20 430 150 560 Q270 675 420 540 L350 740 L550 740 L480 540 Q630 675 750 560 Q880 430 700 280 Q500 105 450 20 Z" fill="#fff"/><path d="M450 20 Q400 105 200 280 Q20 430 150 560 Q270 675 420 540 L350 740 L550 740 L480 540 Q630 675 750 560 Q880 430 700 280 Q500 105 450 20 Z M450 250 L570 390 L450 510 L330 390 Z" fill="#000" fill-rule="evenodd"/></g>
+</svg>

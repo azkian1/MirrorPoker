@@ -1,0 +1,26 @@
+Finger snap recording
+
+Creator: Joseph SARDIN / BigSoundBank.com
+Original title: Finger clashes (sound 0483)
+Original recording date: 2011-08-15 (embedded Broadcast WAV metadata)
+Source page: https://bigsoundbank.com/finger-clashes-s0483.html
+Original WAV: https://bigsoundbank.com/UPLOAD/bwf-en/0483.wav
+License page: https://bigsoundbank.com/licenses.html
+License: Creative Commons Zero, CC0 1.0 Universal
+License text: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+Source retrieved and license verified: 2026-10-15
+
+The creator explicitly permits sharing, adaptation, redistribution and commercial
+use without permission or mandatory credit. The source WAV embeds
+"CC0 / WTFPL / Public domain" as its copyright metadata.
+
+Mirror Poker adaptation: one actual finger snap, extracted at 3.369 seconds for
+0.200 seconds. Removed low-frequency rumble with a 90 Hz high-pass, applied a
+0.3 ms entrance fade and a 50 ms tail fade starting at 150 ms, and increased gain
+by 6 dB. Stored as mono 48,000 Hz 16-bit PCM WAV. No synthesis or generated audio.
+
+FFmpeg filter: highpass=f=90,afade=t=in:d=0.0003,afade=t=out:st=0.15:d=0.05,volume=6dB
+Original WAV SHA-256:
+337c1de855dafb8fbd528675e85393e0bd58d40ae563644934c6fcc251d5a6c5
+Adapted finger-snap.wav SHA-256:
+779ef5cb2309f121a7c995ca330bacd1ce72df1bc315e2f298f8e3349553754e
