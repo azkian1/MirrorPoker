@@ -7,6 +7,10 @@ A standalone 3D Texas Hold'em game against three bots. Before each hand, the Dea
 
 Hand categories keep their usual order. The world stays fixed until the pot is paid.
 
+**[Play online on Remix](https://remix.gg/g/mirror-poker)** · [Run the standalone edition locally](#play-locally)
+
+The online link opens the original hosted Remix edition. This repository contains the standalone game against bots.
+
 ![Mirror Poker gameplay](docs/images/gameplay.png)
 
 This edition runs in your browser without Remix, an account, API keys, or a backend. It uses play chips only. Multiplayer queues, platform profiles, and global ratings are not included.
